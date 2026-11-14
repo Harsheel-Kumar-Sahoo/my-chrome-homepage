@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111827">
+
+    <title>Hello, Harsheel!</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <img id="slide-a" class="slide visible" src="images/image1.jpg" alt="">
+        <img id="slide-b" class="slide" src="images/image2.jpg" alt="">
+        <div class="scrim"></div>
+    </div>
+
+    <main class="content">
+
+        <header class="topbar">
+            <div class="date" id="date">LOADING DATE</div>
+            <div class="time-zone">YOUR PERSONAL SPACE</div>
+        </header>
+
+        <section class="hero">
+            <p class="eyebrow">WELCOME BACK</p>
+
+            <h1>
+                Hello, Harsheel<span class="punctuation">!</span>
+            </h1>
+
+            <div class="clock" id="clock">12:00:00</div>
+
+            <p class="subtitle" id="greeting">
+                Make today count.
+            </p>
+
+            <form
+                class="search"
+                action="https://www.google.com/search"
+                method="get"
+            >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="11" cy="11" r="7"></circle>
+                    <path d="m16.5 16.5 4 4"></path>
+                </svg>
+
+                <input
+                    type="search"
+                    name="q"
+                    placeholder="Search Google or type a URL..."
+                    autocomplete="off"
+                    aria-label="Search Google"
+                >
+
+                <span class="search-hint">ENTER ↵</span>
+            </form>
+        </section>
+
+        <footer class="bottom">
+
+            <div class="shortcut-area">
+
+                <nav
+                    class="app-dock"
+                    id="app-dock"
+                    aria-label="Quick links"
+                    inert
+                >
+
+                    <!-- AI Assistants -->
+                    <section class="dock-section">
+                        <h2>AI ASSISTANTS</h2>
+
+                        <div class="dock-links">
+                            <a href="https://chatgpt.com/" target="_blank" rel="noreferrer">
+                                <span class="app-icon">✳</span>
+                                <span>ChatGPT</span>
+                            </a>
+
+                            <a href="https://claude.ai/" target="_blank" rel="noreferrer">
+                                <span class="app-icon">✦</span>
+                                <span>Claude</span>
+                            </a>
+                        </div>
+                    </section>
+
+                    <!-- Google Workspace -->
+                    <section class="dock-section">
+                        <h2>GOOGLE WORKSPACE</h2>
+
+                        <div class="dock-links">
+                            <a href="https://docs.google.com/" target="_blank" rel="noreferrer">
+                                <span class="app-icon">D</span>
+                                <span>Google Docs</span>
+                            </a>
+
+                            <a href="https://slides.google.com/" target="_blank" rel="noreferrer">
+                                <span class="app-icon">S</span>
+                                <span>Google Slides</span>
+                            </a>
+
+                            <a href="https://drive.google.com/" target="_blank" rel="noreferrer">
+                                <span class="app-icon">△</span>
+                                <span>Google Drive</span>
+                            </a>
+                        </div>
+                    </section>
+
+                    <!-- Connect & Communicate -->
+                    <section class="dock-section">
+                        <h2>CONNECT &amp; COMMUNICATE</h2>
+
+                        <div class="dock-links">
+                            <a href="https://github.com/" target="_blank" rel="noreferrer">
+                                <span class="app-icon">GH</span>
+                                <span>GitHub</span>
+                            </a>
+
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                                <span class="app-icon">in</span>
+                                <span>LinkedIn</span>
+                            </a>
+
+                            <a href="https://mail.google.com/" target="_blank" rel="noreferrer">
+                                <span class="app-icon">M</span>
+                                <span>Gmail</span>
+                            </a>
+
+                            <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
+                                <span class="app-icon">W</span>
+                                <span>WhatsApp Web</span>
+                            </a>
+                        </div>
+                    </section>
+
+                </nav>
+
+                <!-- Collapsible Menu Toggle -->
+                <button
+                    class="menu-toggle"
+                    id="menu-toggle"
+                    type="button"
+                    aria-label="Show shortcuts"
+                    aria-expanded="false"
+                    aria-controls="app-dock"
+                >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg>
+                </button>
+
+            </div>
+
+            <div class="photo-note">
+                <span class="dot"></span>
+                YOUR MOMENTS, YOUR SPACE
+            </div>
+
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

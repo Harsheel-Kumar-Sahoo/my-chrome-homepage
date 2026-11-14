@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Harsheel's Personal Homepage",
+  "version": "1.0.0",
+  "description": "A modern new-tab page with a personal greeting, live clock, Google search and your own photo slideshow.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
